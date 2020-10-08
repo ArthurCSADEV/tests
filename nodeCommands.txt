@@ -1,0 +1,17 @@
+1
+--NPM INIT
+[install node modules]
+
+[install lite-server]
+-- npm install lite-server --save-dev
+
+[install - ferma node]
+-- npm install --node
+
+[install - terça]
+-- npm install --node
+-- npm install --modules
+[lite-server -> package.json -> scripts]
+    "start": "npm run lite",
+    "lite": "lite-server"
+
